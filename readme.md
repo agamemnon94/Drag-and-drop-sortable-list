@@ -1,5 +1,3 @@
-Le code que vous avez fourni semble être une implémentation d'une fonctionnalité de glisser-déposer (drag-and-drop) pour une liste triable. Il permet de déplacer les éléments de la liste en fonction de la position de la souris lors du glisser-déposer. Analysons le code ligne par ligne :
-
 1. Les deux premières lignes sélectionnent l'élément avec la classe "sortable_list" et tous les éléments avec la classe "list_items" dans le DOM.
 
 2. La boucle forEach est utilisée pour ajouter des écouteurs d'événements "dragstart" et "dragend" à chaque élément de liste (item).
