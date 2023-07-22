@@ -21,5 +21,3 @@
 11. Finalement, la fonction `insertBefore` est utilisée pour insérer l'élément en cours de déplacement (draggingItem) avant l'élément sibling trouvé (nextSlibling).
 
 12. Les deux dernières lignes ajoutent des écouteurs d'événements "dragover" et "dragenter" pour gérer le glisser-déposer sur `sortableList`. Le dragenter empêche également l'événement par défaut pour autoriser le glisser-déposer.
-
-En général, le code semble correctement écrit pour mettre en œuvre une fonctionnalité de glisser-déposer pour la liste triable. Cependant, il est toujours essentiel de tester le code dans le contexte de votre application et de vérifier que tout fonctionne comme prévu, car le comportement peut dépendre des autres parties de votre code et de la structure de votre page web.
